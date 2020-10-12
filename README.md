@@ -129,12 +129,16 @@
 - [索引文件的生成（十九）之dvm&&dvd](https://www.amazingkoala.com.cn/Lucene/Index/2020/0531/145.html)
 - [索引文件的生成（二十）之dvm&&dvd](https://www.amazingkoala.com.cn/Lucene/Index/2020/0602/146.html)
 - [索引文件的生成（二十一）之dvm&&dvd](https://www.amazingkoala.com.cn/Lucene/Index/2020/0605/147.html)
+- [索引文件的生成（二十二）之nvd&&nvm](https://www.amazingkoala.com.cn/Lucene/Index/2020/0828/164.html)
 
 ##### 11. 软删除softDeletes
 
 - [软删除softDeletes（一）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0616/148.html)
 - [软删除softDeletes（二）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0621/149.html)
 - [软删除softDeletes（三）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0624/150.html)
+- [软删除softDeletes（四）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0629/151.html)
+- [软删除softDeletes（五）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0708/152.html)
+- [软删除softDeletes（六）](https://www.amazingkoala.com.cn/Lucene/Index/2020/0709/153.html)
 
 
 # Search
@@ -178,6 +182,23 @@
 - [索引文件的读取（二）之dim&&dii](https://www.amazingkoala.com.cn/Lucene/Search/2020/0428/136.html)
 - [索引文件的读取（三）之dim&&dii](https://www.amazingkoala.com.cn/Lucene/Search/2020/0430/137.html)
 - [索引文件的读取（四）之dim&&dii](https://www.amazingkoala.com.cn/Lucene/Search/2020/0506/138.html)
+- [索引文件的读取（五）之dvd&&dvm](https://www.amazingkoala.com.cn/Lucene/Search/2020/0714/154.html)
+- [索引文件的读取（六）之dvd&&dvm](https://www.amazingkoala.com.cn/Lucene/Search/2020/0715/155.html)
+- [索引文件的读取（七）之tim&&tip](https://www.amazingkoala.com.cn/Lucene/Search/2020/0804/158.html)
+- [索引文件的读取（八）之tim&&tip](https://www.amazingkoala.com.cn/Lucene/Search/2020/0805/159.html)
+- [索引文件的读取（九）之tim&&tip](https://www.amazingkoala.com.cn/Lucene/Search/2020/0810/160.html)
+- [索引文件的读取（十）之tim&&tip](https://www.amazingkoala.com.cn/Lucene/Search/2020/0812/161.html)
+- [索引文件的读取（十一）之tim&&tip](https://www.amazingkoala.com.cn/Lucene/Search/2020/0819/162.html)
+- [索引文件的读取（十二）之doc&&pos&&pay](https://www.amazingkoala.com.cn/Lucene/Search/2020/0904/165.html)
+- [索引文件的读取（十三）之doc&&pos&&pay](https://www.amazingkoala.com.cn/Lucene/Search/2020/0911/166.html)
+
+##### 11. 范围域（rangeField）
+
+- [RangeField（一）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0723/156.html)
+
+##### 12. block-max-WAND
+
+- [block-max-WAND（一）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0916/167.html)
 
 # Util
 
@@ -185,7 +206,11 @@
 
 ##### 2. [Bkd-Tree](https://www.amazingkoala.com.cn/Lucene/gongjulei/2019/0422/52.html)
 
-##### 3. [Automaton](https://www.amazingkoala.com.cn/Lucene/gongjulei/2019/0417/51.html)
+##### 3. Automaton
+
+- [Automaton](https://www.amazingkoala.com.cn/Lucene/gongjulei/2019/0417/51.html)
+- [Automaton（二）](https://www.amazingkoala.com.cn/Lucene/gongjulei/2020/0727/157.html)
+- [Automaton（三）](https://www.amazingkoala.com.cn/Lucene/gongjulei/2020/0821/163.html)
 
 ##### 4. [FixedBitSet](https://www.amazingkoala.com.cn/Lucene/gongjulei/2019/0404/45.html)
 
@@ -204,7 +229,11 @@
 
 ##### 1. [LZ4算法（上）](https://www.amazingkoala.com.cn/Lucene/yasuocunchu/2019/0226/37.html)
 
-##### 2. [FST算法（上）](https://www.amazingkoala.com.cn/Lucene/yasuocunchu/2019/0220/35.html)
+##### 2. FST
+
+- [FST（一）](https://www.amazingkoala.com.cn/Lucene/yasuocunchu/2019/0220/35.html)
+
+- [FST（二）](https://www.amazingkoala.com.cn/Lucene/yasuocunchu/2020/1009/168.html)
 
 ##### 3. [BulkOperationPacked](https://www.amazingkoala.com.cn/Lucene/yasuocunchu/2019/0213/31.html)
 
@@ -223,3 +252,27 @@
 
 - [TermVector倒排表](https://www.amazingkoala.com.cn/Lucene/Index/2019/0428/55.html)
 - [存储域倒排表](https://www.amazingkoala.com.cn/Lucene/Index/2019/0222/36.html)
+
+##### 2. [SortedDocValues VS BinaryDocValues](https://www.amazingkoala.com.cn/Lucene/Search/2020/0715/155.html)
+
+##### 3. [两阶段遍历（TwoPhaseIterator）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0723/156.html)
+
+##### 4. [查找表（lookup table）](https://www.amazingkoala.com.cn/Lucene/gongjulei/2020/0514/141.html)
+
+##### 5. off-heap/on-heap
+- [off-heap/on-heap（一）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0804/158.html)
+
+- [off-heap/on-heap（二）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0805/159.html)
+
+##### 6. TermRangeQuery
+
+- [TermRangeQuery（一）](https://www.amazingkoala.com.cn/Lucene/gongjulei/2020/0727/157.html)
+- [TermRangeQuery（二）](https://www.amazingkoala.com.cn/Lucene/gongjulei/2020/0727/157.html)
+- [TermRangeQuery（三）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0810/160.html)
+- [TermRangeQuery（四）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0812/161.html)
+- [TermRangeQuery（五）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0819/162.html)
+
+##### 7. TermsEnum
+
+- [TermsEnum（一）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0810/160.html)
+- [PostingsEnum（一）](https://www.amazingkoala.com.cn/Lucene/Search/2020/0911/166.html)
